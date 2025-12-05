@@ -4,11 +4,24 @@ body {
 	margin: 20px;
 }
 
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
 #wallpaper {
 	font-family: monospace;
 	color: white;
 	font-size: 25px;
-	line-height: 0.1;
+	line-height: 0.7;
+	
+	width: 100vw;
+	height: 100vh;
+	
+	overflow: hidden;
+	
 	white-space: normal;
 	word-break: break-word;
 }
