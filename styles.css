@@ -1,0 +1,19 @@
+body {
+	background-color: black;
+	color: white;
+	margin: 20px;
+}
+
+#wallpaper {
+	font-family: monospace;
+	color: #777;
+	font-size: 18px;
+	line-height: 1.1;
+	word-break: break-word;
+}
+
+#wallpaper a {
+	color: lime;
+	font-weight: bold;
+	text-decoration: underline;
+}
