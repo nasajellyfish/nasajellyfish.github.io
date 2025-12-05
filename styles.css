@@ -6,9 +6,10 @@ body {
 
 #wallpaper {
 	font-family: monospace;
-	color: #777;
-	font-size: 18px;
-	line-height: 1.1;
+	color: white;
+	font-size: 25px;
+	line-height: 3;
+	white-space: normal;
 	word-break: break-word;
 }
 
@@ -16,4 +17,6 @@ body {
 	color: lime;
 	font-weight: bold;
 	text-decoration: underline;
+	white-space: nowrap;
+	display: inline;
 }
