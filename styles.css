@@ -27,9 +27,8 @@ html, body {
 }
 
 #wallpaper a {
-	color: lime;
+	color: #777;
 	font-weight: bold;
-	text-decoration: underline;
 	white-space: nowrap;
 	display: inline;
 }
