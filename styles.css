@@ -13,9 +13,10 @@ html, body {
 	
 }
 
-#wallpaper {
-	font-family: monospace;
-	color: purple;
-	font-size: 30px;
-	line-height: 1.1;
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 200px;
 	
+}
