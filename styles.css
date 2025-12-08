@@ -4,6 +4,7 @@ body {
 	background-size: 250px;
 	background-position: top left;
 	margin: 20px;
+	position: relative;
 }
 
 html, body {
@@ -13,11 +14,35 @@ html, body {
 	
 }
 
-.container {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 200px;
-	font-size: 45px;
-	
+.beetle {
+	position: absolute;
+	width: 250px;
+	height: 250px;
+	background-size: cover;
 }
+
+.beetle-audio {
+	background-image: url("/media/beetleaudio.PNG");
+	top: 250px;
+	left: 250px;
+}
+
+.beetle-images {
+	background-image: url("/media/beetleimages.PNG");
+	top: 250px;
+	left: 500px;
+}
+
+.beetle-video {
+	background-image: url("/media/beetlevideo.PNG");
+	top: 250px;
+	left: 750px;
+}
+
+
+.beetle-text {
+	background-image: url("/media/beetletext.PNG");
+	top: 250px;
+	left: 1000px;
+}
+
