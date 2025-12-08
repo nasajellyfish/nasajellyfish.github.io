@@ -7,21 +7,16 @@ body {
 
 }
 
-.buttons {
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-	gap: 10px;
-	max-width: 800px;
+.button-area {
+	position: relative;
+	width: 500px;
+	height: 500px;
+	margin: 0 auto;
 }
 
-html, body {
-	height: 100%;
-	margin: 0;
-	padding: 0;
-	
-}
 
 .beetle {
+	position: absolute;
 	width: 250px;
 	height: 250px;
 	background-size: cover;
@@ -29,18 +24,32 @@ html, body {
 
 .beetle-audio {
 	background-image: url("/media/beetleaudio.PNG");
+	top: 0;
+	left: 0;
 }
 
 .beetle-images {
 	background-image: url("/media/beetleimages.PNG");
+	top: 0;
+	left: 250px;
 }
 
 .beetle-video {
 	background-image: url("/media/beetlevideo.PNG");
+	top: 250px;
+	left: 0;
 }
 
 
 .beetle-text {
 	background-image: url("/media/beetletext.PNG");
+	top: 250px;
+	left: 250px;
 }
 
+@media (max-width: 600px) {
+	.button-area {
+		transform: scale(0.6);
+		transform-origin: top left;
+	}
+}
