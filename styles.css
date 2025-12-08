@@ -24,27 +24,27 @@ body {
 
 .beetle-audio {
 	background-image: url("/media/beetleaudio.PNG");
-	top: 0;
-	left: 0;
+	top: 250;
+	left: 250;
 }
 
 .beetle-images {
 	background-image: url("/media/beetleimages.PNG");
-	top: 0;
-	left: 250px;
+	top: 250;
+	left: 500px;
 }
 
 .beetle-video {
 	background-image: url("/media/beetlevideo.PNG");
-	top: 250px;
-	left: 0;
+	top: 500px;
+	left: 250;
 }
 
 
 .beetle-text {
 	background-image: url("/media/beetletext.PNG");
-	top: 250px;
-	left: 250px;
+	top: 500px;
+	left: 500px;
 }
 
 @media (max-width: 600px) {
