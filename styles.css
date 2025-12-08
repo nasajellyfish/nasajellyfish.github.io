@@ -4,7 +4,14 @@ body {
 	background-size: 250px;
 	background-position: top left;
 	margin: 20px;
-	position: relative;
+
+}
+
+.buttons {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	gap: 10px;
+	max-width: 800px;
 }
 
 html, body {
@@ -15,7 +22,6 @@ html, body {
 }
 
 .beetle {
-	position: absolute;
 	width: 250px;
 	height: 250px;
 	background-size: cover;
@@ -23,26 +29,18 @@ html, body {
 
 .beetle-audio {
 	background-image: url("/media/beetleaudio.PNG");
-	top: 250px;
-	left: 250px;
 }
 
 .beetle-images {
 	background-image: url("/media/beetleimages.PNG");
-	top: 250px;
-	left: 500px;
 }
 
 .beetle-video {
 	background-image: url("/media/beetlevideo.PNG");
-	top: 250px;
-	left: 750px;
 }
 
 
 .beetle-text {
 	background-image: url("/media/beetletext.PNG");
-	top: 250px;
-	left: 1000px;
 }
 
