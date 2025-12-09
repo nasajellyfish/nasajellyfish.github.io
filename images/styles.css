@@ -4,5 +4,7 @@ body {
 	background-size: 250px;
 	background-position: top left;
 	margin: 20px;
-
+	font-family: "Times New Roman";
+	color: white;
+	text-shadow: 0 0 5px #ff00ff;
 }
